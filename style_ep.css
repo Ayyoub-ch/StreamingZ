@@ -215,3 +215,22 @@ header .logo {
   background: linear-gradient(145deg, #666, #333);
   border-color: #fff;
 }
+
+
+.images-cote-a-cote {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin: 20px 0;
+  }
+
+    .images-cote-a-cote figure {
+      margin: 0;
+      text-align: center;
+    }
+
+    .images-cote-a-cote img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
