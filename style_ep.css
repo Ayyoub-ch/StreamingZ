@@ -181,3 +181,37 @@ header .logo {
 .saison:hover {
   background: #333;
 }
+
+.episodes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 75px;
+  margin: 30px;
+}
+
+.saison {
+  display: block;
+  background: linear-gradient(145deg, #444, #222);
+  border: 2px solid #888;
+  border-radius: 12px;
+  padding: 27px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+  transition: transform 0.2s, background 0.3s, border 0.3s;
+}
+
+.saison small {
+  font-size: 12px;
+  color: #ccc;
+  display: block;
+  margin-top: 5px;
+}
+
+.saison:hover {
+  transform: scale(1.05);
+  background: linear-gradient(145deg, #666, #333);
+  border-color: #fff;
+}
