@@ -1,0 +1,9 @@
+# Ignorer les fichiers vidéo MP4
+dbgt/episodes/videos/*.mp4
+*.mp4
+
+# Ignorer les fichiers temporaires et caches
+.DS_Store
+Thumbs.db
+node_modules/
+.env

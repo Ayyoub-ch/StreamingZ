@@ -236,3 +236,30 @@ header .logo {
       height: auto;
       border-radius: 8px;
     }
+
+/*
+.player {
+  position: relative;
+  width: 80%;
+  max-width: 900px;
+  background: #000;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 25px rgba(0,0,0,0.6);
+}
+
+video {
+  width: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+/* Auto-hide des controls 
+video::-webkit-media-controls {
+  transition: opacity 0.5s;
+}
+
+.hidden-controls::-webkit-media-controls {
+  opacity: 0;
+  pointer-events: none;
+}*/
